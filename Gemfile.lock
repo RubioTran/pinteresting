@@ -40,6 +40,10 @@ GEM
     autoprefixer-rails (5.2.1)
       execjs
       json
+    aws-s3 (0.6.3)
+      builder
+      mime-types
+      xml-simple
     aws-sdk (1.64.0)
       aws-sdk-v1 (= 1.64.0)
     aws-sdk-v1 (1.64.0)
@@ -185,11 +189,13 @@ GEM
     will_paginate (3.0.7)
     will_paginate-bootstrap (1.0.1)
       will_paginate (>= 3.0.3)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-s3
   aws-sdk (< 2.0)
   bootstrap-sass
   byebug
